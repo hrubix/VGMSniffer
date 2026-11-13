@@ -1,0 +1,12 @@
+---
+description: Bump the SCC VGM plugin version after every plugin change
+alwaysApply: true
+---
+
+# Plugin version
+
+After any change to the SCC VGM plugin (engine, CLAP, editor, or vendored player behavior), bump the patch number in `src/vgm_plugin/scc_vgm_version.h` before finishing.
+
+- `SCC_VGM_PLUGIN_VERSION_STRING` is the version Bitwig shows. Example: `0.1.2` becomes `0.1.3`.
+- Do this in the same change as the code, then rebuild `scc-vgm` Release so the installed CLAP matches.
+- Leave `src/version.h` alone unless the separate SCC synth plugin changed.
