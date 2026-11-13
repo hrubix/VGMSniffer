@@ -1,5 +1,7 @@
 # VGM Sniffer
 
+Zoinks! We've uncovered some seriously groovy frequencies!
+
 **VGM Sniffer** is a Windows CLAP instrument from [Rubikon Lab](https://rubikonlab.nl). It plays a `.vgm` or `.vgz` file in time with the host and exposes **one** MSX chip voice — SCC 1–5 or PSG A/B/C — as audio, control voltage, and notes. Use it in Bitwig (or another CLAP host) to pull a single part out of a VGM and drive The Grid, another synth, or a sampler.
 
 Current release: **0.1.19** (alpha). Contact and bug reports: rubikonlab@proton.me
