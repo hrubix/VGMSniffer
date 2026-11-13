@@ -8,6 +8,8 @@ Current release: **0.1.19** (alpha). Contact and bug reports: rubikonlab@proton.
 
 It is not a full mixer. Load a file, pick one channel, and route that voice’s outs. A longer description of each port is in [docs/VGM-Sniffer-manual.md](docs/VGM-Sniffer-manual.md).
 
+More information, a screencast, and an audio demo are on the project page: https://rubikonlab.com/#vgmsniffer
+
 ## What the host receives
 
 | Port | Kind | Use |
